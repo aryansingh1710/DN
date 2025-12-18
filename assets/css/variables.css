@@ -1,0 +1,48 @@
+:root {
+    /* Colors */
+    --primary-bg: #0f0f0f;
+    --secondary-bg: #1a1a1a;
+    --text-color: #f5f5f5;
+    --accent-color: #e74c3c; /* Red/Blood */
+    --tanjiro-green: #2ecc71;
+    --tanjiro-black: #000000;
+    --zenitsu-yellow: #f1c40f;
+    --inosuke-blue: #3498db;
+    --nezuko-pink: #e91e63;
+    
+    /* Fonts */
+    --font-heading: 'Cinzel', serif;
+    --font-body: 'Noto Serif JP', serif;
+    
+    /* Spacing */
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+    --spacing-xl: 64px;
+}
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    font-family: var(--font-body);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    margin-bottom: var(--spacing-md);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
